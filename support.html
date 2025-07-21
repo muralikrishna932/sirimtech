@@ -30,7 +30,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
-    <body class="bg-light">
+    <body>
 
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -41,17 +41,21 @@
         <!-- Spinner End -->
 
         <div class="topbar d-flex align-items-center">
-            <div class="container d-flex justify-content-md-between">
-              <div class="contact-info">
+            <div class="container-fluid d-flex justify-content-md-between">
+              <div class="d-flex contact-info align-items-center">
                 <i class="bi bi-envelope align-items-center text-white">
-                    <a href="mailto:contact@example.com" class="text-white"> contact@sirimtech.com</a>
+                    <a href="mailto:contact@sirimtech.com" class="text-white"> contact@sirimtech.com</a>
                 </i>
               </div>
-              <div class="social-links">
-                <i class="bi bi-phone align-items-center text-white">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-phone text-white">
                     <span>+91 0000 000 000</span>
                 </i>
-              </div>
+                <i class="fas fa-share fa-1x text-secondary"></i>
+                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
             </div>
           </div>
 
@@ -70,12 +74,10 @@
                             <a href="about.html" class="dropdown-item text-uppercase">About Us</a>
                             <a href="csr.html" class="dropdown-item text-uppercase">Corporate Social Resposibility (CSR)</a>
                             <a href="index.html#testimonial" class="dropdown-item text-uppercase">Testimonial</a>
-                           <!--<a href="#career" class="dropdown-item text-uppercase">Career</a>-->
                         </div>
                     </div>
                     <a href="index.html#services" class="nav-item nav-link text-uppercase active">Services</a>
                     <a href="index.html#industries" class="nav-item nav-link text-uppercase">Industries</a>
-                    <!--<a href="index.html#career" class="nav-item nav-link text-uppercase">Career</a>-->
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle text-uppercase" data-bs-toggle="dropdown">Join Us</a>
                         <div class="dropdown-menu m-0">
@@ -205,7 +207,7 @@
                             </div>
                         </div>
 
-                    <div class="container-fluid overflow-hidden mt-3" style="color: #1a3668;">
+                    <div class="container-fluid overflow-hidden mt-3 bg-light py-5" style="color: #1a3668;">
                         <div class="container">
                             <div class="row g-4">
                                 <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.3s">
@@ -262,7 +264,7 @@
                                 </div>
                             </div>
 
-                            <div class="container-fluid overflow-hidden mt-4" style="color: #1a3668;">
+                            <div class="container-fluid overflow-hidden mt-4 bg-light py-5" style="color: #1a3668;">
                                 <div class="container">
                                     <div class="row g-4">
                                         <p class="display-5 mb-4 text-center">✅ Benefits You Get</p>
