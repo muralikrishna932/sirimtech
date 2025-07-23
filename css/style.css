@@ -1068,13 +1068,17 @@
     transition: all 0.5s;
 }
 
-
 .info-one {
     background: #f8faff;
     padding: 14px;
     border-radius: 10px;
     font-size: 16px;
     border: 1px solid #DADFEE;
+}
+
+.logo-img{
+    vertical-align: middle;
+    width: 215px;
 }
 
 
