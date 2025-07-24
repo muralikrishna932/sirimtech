@@ -75,7 +75,7 @@
 }
 
 .btn.btn-primary:hover {
-    background: /* var(--bs-white) */ #0264B9 !important;
+    background: #0264B9 !important;
     color: var(--bs-white) !important;
 }
 
@@ -87,19 +87,17 @@
 }
 
 .btn.btn-light:hover {
-    background: #F90C00  /*var(--bs-primary)*/ !important;
+    background: #F90C00  !important;
     color: var(--bs-light) !important;
 }
 
 
 .RotateMoveLeft {
     position: relative;
-   /* animation: RotateMoveLeft 10s linear infinite;*/
 }
 
 .RotateMoveRight {
     position: relative;
-    /*animation: RotateMoveLeft 10s linear infinite;*/
 }
 
 @keyframes RotateMoveLeft {
@@ -251,14 +249,13 @@
         width: 100%;
         top: 0;
         left: 0;
-       /* background: transparent !important; */
         background: var(--bs-white) !important;
         z-index: 999;
     }
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: var(--bs-white) !important; /*var(--bs-light) !important;*/
+        background: var(--bs-white) !important; 
     }
 }
 /*** Navbar End ***/
@@ -268,7 +265,6 @@
     position: relative;
     overflow: hidden;
     background: url(../img/page-headr.jpg);
-    /*linear-gradient(rgba(102, 16, 242, 0.05), rgba(102, 16, 242, 0.05)); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,9 +281,6 @@
     width: 600px;
     height: 600px;
     border-radius: 300px;
-   /* border: 80px solid rgba(247, 71, 128, 0.05); */
-   /* background: transparent;*/
-   /* animation: RotateMoveSingle 5s linear infinite; */
     z-index: -1;
 }
 
@@ -295,7 +288,6 @@
     position: relative;
     z-index: 2;
 }
-
 
 .bg-breadcrumb::before {
     content: "";
@@ -305,9 +297,7 @@
     width: 600px;
     height: 600px;
     border-radius: 300px;
-   /* border: 80px solid rgba(247, 71, 128, 0.04); */
     background: transparent;
-   /* animation: RotateMoveSingle 5s linear infinite; */
     z-index: -1;
 }
 
@@ -338,7 +328,6 @@
     width: 20px;
     height: 20px;
     background: rgba(102, 16, 242, 0.07);
-   /* animation: animate 25s linear infinite; */
     bottom: -150px;
     
 }
@@ -466,11 +455,8 @@
     bottom: 100px;
     width: 58px;
     height: 50px;
-   /* background: url(../img/sty-1.png) center center no-repeat;*/
-   /* animation: RotateMoveSty-3 45s linear infinite; */
     transition: 0.5s;
     z-index: -1;
-    
 }
 .hero-header::before {
     content: "";
@@ -482,10 +468,8 @@
     border-radius: 150px;
     border: 30px solid rgba(102, 16, 242, 0.05);
     background: transparent;
-    /*animation: RotateMoveSty-4 45s linear infinite;*/
     transition: 0.5s;
     z-index: -1;
-    
 }
 
 @keyframes RotateMoveSty-4 {
@@ -514,7 +498,6 @@
     border-radius: 30px;
     border: 5px solid rgba(247, 71, 128, 0.1);
     background: transparent;
-   /* animation: RotateMoveSty-2 45s linear infinite;*/
     transition: 0.5s;
 
 }
@@ -531,7 +514,6 @@
 
 .hero-header .rotate-img img {
     position: relative;
-    /*: RotateMove 30s linear infinite;*/
     z-index: -1;
 }
 
@@ -559,18 +541,16 @@
 /*** Service Start ***/
 .service .service-item {
     box-shadow: rgba(11, 11, 11, 0.26) 0px 0px 48px;
-    /*0 0 45px rgba(0, 0, 0, 0.1);*/
 }
 
 .service .service-item,
 .service .service-item .service-icon,
 .service .service-item a {
-    background: rgba(0, 134, 251, 0.348);
+    background: rgba(0, 134, 251, 0.6);
     transition: 0.5s;
 }
 
 .service .service-item:hover {
-    /*background: rgba(0, 134, 251, 0.348);*/
     background: var(--bs-white) !important;
     border: 1px ;
 }
@@ -918,8 +898,6 @@
     color: white;
 }
 
-
-
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1140px;
@@ -927,11 +905,10 @@
 }
 
 .Blog .team-member {
-    /*background-color: var(--surface-color);*/
-    background: rgba(0, 134, 251, 0.348);
+    background: rgba(0, 134, 251, 0.6);
     box-shadow: rgba(0, 0, 0, 0.1) 5px 10px 10px;
     position: relative;
-    border-radius: 30px;
+    border-radius: 15px;
     transition: 0.5s;
     padding: 5px;
     height: 100%;
@@ -994,7 +971,6 @@
     width: 45px;
 }
 
-   
 .services-widget {
     padding-top: 30px 30px 35px;
     border-radius: 10px;
@@ -1014,7 +990,6 @@
 
 /* Emd Services */
 
-
 .bannerimg {
    position: relative;
    text-align: center;
@@ -1022,13 +997,8 @@
   
   .bannertext {
     position: absolute;
-   /* top: 50%;
-    left: 30%;*/
     top: 32%;
     left: 1%;
-    /*transform: translate(-50%, -50%);*/
-    /*transform: translate(4%, -184%);*/
-    /*background: var(--bg-silver);*/
   }
 
   .btn.btn-contact{
@@ -1051,7 +1021,6 @@
 }
 .parallelogram {
     width: 100%;
-    /*height: 30px;*/
     background: /*linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);*/
 	linear-gradient(to right, rgb(0, 222, 255) 0.84%, rgb(227, 227, 227));
 }
@@ -1082,45 +1051,19 @@
 }
 
 .bg-type1 {
-    background-color: rgb(255, 227, 217) !important;
+    background-color: rgba(255, 71, 5, 0.12) !important;
     border-radius: 25px;
 }
 
 .bg-type2 {
-    background-color: rgb(251, 238, 167) !important;
+    background-color: rgba(255, 216, 0, 0.17) !important;
     border-radius: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bg-whychoose {
+    background-color: #192020;
+    border-radius: 25px;
+}
 
 /* Services Menu */
 @media (min-width:1200px) {
