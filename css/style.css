@@ -1081,6 +1081,16 @@
     width: 215px;
 }
 
+.bg-type1 {
+    background-color: rgb(255, 227, 217) !important;
+    border-radius: 25px;
+}
+
+.bg-type2 {
+    background-color: rgb(251, 238, 167) !important;
+    border-radius: 25px;
+}
+
 
 
 
