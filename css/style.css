@@ -1065,6 +1065,11 @@
     border-radius: 25px;
 }
 
+
+.container-career {
+        max-width: 1345px;
+}
+
 /* Services Menu */
 @media (min-width:1200px) {
     .col-xl-4 {
@@ -1202,5 +1207,44 @@
   color: #fff;
   text-shadow: none;
 }
+
+/* How we work */
+.container-how-we-work {
+  margin-top: 50px;
+  position: relative;
+}
+ 
+.note {
+  color: #333;
+  position: relative;
+  width: 340px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Satisfy;
+  font-size: 18px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+}
+
+.yellow {
+  background: #eae672;
+  transform: rotate(0deg);
+}
+
+.pink{
+    background: rgb(255, 184, 184);
+    transform: rotate(0deg);
+}
+
+.blue {
+    background: #72cbeb;
+    transform: rotate(0deg);
+}
+
+.lime {
+    background: #cbffb5;
+    transform: rotate(0deg);
+}
+
+
 
 
