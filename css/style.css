@@ -546,7 +546,7 @@
 .service .service-item,
 .service .service-item .service-icon,
 .service .service-item a {
-    background: rgba(0, 134, 251, 0.6);
+    background: rgba(27, 179, 244, 0.72);
     transition: 0.5s;
 }
 
@@ -905,7 +905,7 @@
 }
 
 .Blog .team-member {
-    background: rgba(0, 134, 251, 0.6);
+    background: rgb(147, 223, 238);
     box-shadow: rgba(0, 0, 0, 0.1) 5px 10px 10px;
     position: relative;
     border-radius: 15px;
@@ -974,11 +974,12 @@
 .services-widget {
     padding-top: 30px 30px 35px;
     border-radius: 10px;
-    padding: 20px 20px 15px;
+    padding: 15px 10px 10px;
     width: 24%;
     text-align: center;
     box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);
     background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+    font-size: 0.9rem;
 }
 
 @media (min-width: 1200px) {
@@ -1063,6 +1064,7 @@
 .bg-whychoose {
     background-color: #192020;
     border-radius: 25px;
+    width: 99%;
 }
 
 
@@ -1245,6 +1247,62 @@
     transform: rotate(0deg);
 }
 
+  
+  /* Bottom right text */
+  .banner-text-block {
+    position: absolute;
+    bottom: 315px;
+    left: 45px;
+    right: 45px;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+    padding-left: 175px;
+    padding-right: 49px;
+}
+
+.module {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    background: url(../img/bg-10.jpg);
+    background-size: cover;
+  }
+
+.darken {
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/bg-10.jpg);
+  }
 
 
+
+  .story-descb {
+    padding: 10px 10px 30px 10px;
+    margin: 30px 0;
+    background: #93dfee;
+    text-align: center;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.story-descb:hover {
+    box-shadow: 2px 2px 6px 1px rgba(158, 158, 158, 0.77);
+    border-bottom: 5px solid rgb(249, 12, 0);
+    border-top: 5px solid rgb(249, 12, 0);
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.row-service {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
