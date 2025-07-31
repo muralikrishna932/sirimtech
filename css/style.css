@@ -1043,7 +1043,7 @@
     padding: 14px;
     border-radius: 10px;
     font-size: 16px;
-    border: 1px solid #DADFEE;
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .logo-img{
@@ -1305,4 +1305,5 @@
     margin-right: -15px;
     margin-left: -15px;
 }
+
 
