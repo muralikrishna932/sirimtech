@@ -40,7 +40,7 @@
         </div>
         <!-- Spinner End -->
 
-        <div class="topbar d-flex align-items-center">
+        <div class="topbar d-flex align-items-center" style="max-width: 100%;">
             <div class="container-fluid d-flex justify-content-md-between">
               <div class="d-flex contact-info align-items-center">
                 <i class="bi bi-envelope align-items-center text-white">
@@ -48,9 +48,6 @@
                 </i>
               </div>
               <div class="d-flex align-items-center">
-                <i class="bi bi-phone text-white">
-                    <span>+91 0000 000 000</span>
-                </i>
                 <i class="fas fa-share fa-1x text-secondary"></i>
                 <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                 <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -65,6 +62,9 @@
                 <a href="index.html" class="navbar-brand">
                     <img src="img/logo-no-background.png" class="logo-img" alt="InfyniteTech">
                 </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false">
+                    <span class="fa fa-bars"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link active fw-bold text-uppercase">Home</a>
@@ -90,21 +90,82 @@
                 </div>
             </nav>
 
-
             <!-- Hero Header Start -->
-                <div class="overflow-hidden px-4 py-5 bg-white">
-                    <div class="img-fluid w-100 module wow fadeInDown" data-wow-delay="0.1s" style="height: 615px;">
-                        <div class="banner-text-block wow fadeInLeft" data-wow-delay="0.3s">
-                        <h1 class="display-4 fw-bold text-white">Welcome To Infynite<font color="#ED0D01">Tech</font></h1>
-                        <p class="text-white" style="font-size: large;">
-                            <i> We are team of talented experts providing consulting services. We are driven 
-                              by a single mission to deliver smart, scalable and reliable technology... 
-                            </i>
-                          </p>
-                          </div>
+            <!--<div class="container-fluid overflow-hidden bg-white">
+                    <div class="img-fluid w-100 module mt-5 py-5" style="height: 600px; max-width: 100%;">
+                        <div class="wow fadeInLeft" data-wow-delay="0.3s" style="max-width: 100%;">
+                            <h1 class="display-4 fw-bold text-white text-center py-5">Welcome To <font color="#0264B9">Infynite</font><font color="#ED0D01">Tech</font></h1>
+                            <p class="text-white" style="font-size: large;">
+                                <i style="text-align: justify;"> We are team of talented experts providing consulting services. We are driven 
+                                  by a single mission to deliver smart, scalable and reliable technology. 
+                                </i>
+                              </p>
+                             
+                              <table width="90%" style="left: 12px;">
+                                   <tr>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">Software Development</p>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">Digital & Brand Marketing</p>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">Staffing Services</p>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">BPO Services</p>
+                                        </td>
+                                    </tr>
+                                    <tr><td>&nbsp;</td></tr>
+                                    <tr>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">Mobile App Development</p>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">Web Development</p>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">IT Consultancy</p>
+                                        </td>
+                                        <td>&nbsp;</td>
+                                        <td class="services-widget-hm">
+                                            <i class="fas fa-check-circle text-primary display-5"></i>
+                                            <p class="fw-bold text-uppercase text-dark">IT Training & Development</p>
+                                        </td>
+                                    </tr>
+                              </table>
+                        </div>
+                    </div>
+                    </div>-->
+
+                    <div class="hero-header bg-dark overflow-hidden px-5">
+                        <div class="row gy-5 align-items-center">
+                            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                                <h1 class="display-4 mb-4 text-white">Welcome To <font color="#0264B9">Infynite</font><font color="#ED0D01">Tech</font></h1>
+                                <p class="fs-4 mb-4 text-white">We are team of talented experts providing consulting services. We are driven 
+                                    by a single mission to deliver smart, scalable and reliable technology.</p>
+                                <a href="#" class="btn btn-primary py-3 px-5">About More</a>
+                            </div>
+                            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                                <img src="img/bg-10.jpg" class="img-fluid w-100 h-100" alt="" style="border-top-right-radius: 10px;
+                                border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+                                box-shadow: rgba(11, 11, 11, 0.26) 0px 0px 48px">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
             <!-- Header End -->
         </div>
         <!-- Navbar & Header End -->
@@ -115,8 +176,8 @@
             <div class="container py-5">
                 <div class="row g-4">
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.3s">
-                        <h4 class="mb-1 text-primary fw-bold"><font class="text-dark">WELCOME TO</font> InfyniteTech</h4>
-                        <h4 class="mb-4 fw-bold display-5">We are more than just an IT service provider — we are your 
+                        <h4 class="mb-1 text-primary fw-bold"><font style="color: #0264B9;">WELCOME TO</font> InfyniteTech</h4>
+                        <h4 class="mb-2 fw-bold display-5">We are more than just an IT service provider — we are your 
                             trusted technology partner in innovation and growth</h4>
                         <p class="mb-4" style="color: #1a3668;">At <font color="#0264B9">Infynite</font><font color="#F90C00">Tech</font>, we are driven by a single mission — to deliver smart, scalable, and reliable technology solutions that help businesses grow and thrive in a digital-first world.</p>
                            <p style="color: #1a3668;">As a dynamic IT services and consulting company, we specialise in a comprehensive range of offerings, including Software Development, Application Development & Maintenance, Training & Development, Software Quality Assurance, Mobile App Development, Staffing Services, Digital Marketing, and Business Process Outsourcing (BPO).
@@ -139,132 +200,205 @@
         <div class="container-fluid service py-5 bg-white mt-3" id="services">
             <div class="container mt-4">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="mb-1 text-primary fw-bold text-uppercase"><font class="text-dark">Our</font> Services</h4>
-                    <h5 class="display-5 mb-4 fa-share"><i> What Services We Provide</i></h5>
-                    <p class="mb-0 info-one" style="color: #1a3668;"><i> We provide comprehensive various services designed to streamline your operations and support your business growth.</i>
+                    <h4 class="mb-1 text-primary fw-bold text-uppercase"><font style="color: #0264B9;">Our</font> Services</h4>
+                    <h5 class="display-5 mb-3"><i> What Services We Provide</i></h5>
+                    <p class="mb-0" style="color: #1a3668;"><i> We provide comprehensive various services designed to streamline your operations and support your business growth.</i>
                     </p>
                 </div>
                 
-                <div class="row text-dark">
+                <div class="row" style="color: black;">
                     <div class="row-service">
                         <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.5s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Enterprise Software Development</h5>
-                                <p class="mb-4">We deliver custom-tailored software solutions that drive innovation, 
+                            <div class="card">
+                                <div class="face face1">
+                                 <div class="services1-descb">
+                                <p class="mb-3">We deliver custom-tailored software solutions that drive innovation, 
                                     enhance productivity, and scale with your business needs.</p>
-                                    <a href="service.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
-                
+                                    <a href="service.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                            </div>
+                            </div>
+                            <div class="face face2">
+                                <h5 class="fw-bold text-white">Enterprise Software Development</h5>
+                            </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.3s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Digital & Brand Marketing</h5>
-                                <p class="mb-4">Our Digital Marketing Services are crafted to boost brand visibility, 
-                                    generate high-quality leads, and deliver measurable ROI. All while keeping you ahead of the competition.
-                                </p>
-                                <a href="digital.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.5s">
+                            <div class="card">
+                                <div class="face face1">
+                                 <div class="services1-descb">
+                                    <p class="mb-2">Our Digital Marketing Services are crafted to boost brand visibility, 
+                                        generate high-quality leads, and deliver measurable ROI. All while keeping you ahead of the competition.
+                                    </p>
+                                    <a href="digital.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                            </div>
+                            </div>
+                            <div class="face face2">
+                                <h5 class="fw-bold text-white">Digital & Brand Marketing</h5>
+                            </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.1s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Staffing Services</h5>
+                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.5s">
+                            <div class="card">
+                                <div class="face face1">
+                                 <div class="services1-descb">
                                 <p class="mb-4">Our comprehensive staffing services are designed to meet the evolving 
                                     needs of modern businesses, offering both IT and Non-IT recruitment solutions.
                                 </p>
-                                <a href="staffing.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                                <a href="staffing.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
                             </div>
-                        </div>
-
-                        <div class="col-md-4 wow fadeInRight px-2" data-wow-delay="0.1s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">BPO Services</h5>
-                                <p class="mb-4">Our Business Process Outsourcing (BPO) Services empower businesses to outsource non-core functions efficiently.
-                                </p>
-                                <a href="bpo.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
                             </div>
-                        </div>
-
-                        <div class="col-md-4 wow fadeInRight px-2" data-wow-delay="0.3s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Mobile App Development</h5>
-                                <p class="mb-4">our mobile app development services are designed to bring your vision to life 
-                                    with innovation, speed, and precision.
-                                </p>
-                                <a href="mobile-dev.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                            <div class="face face2">
+                                <h5 class="fw-bold text-white">Staffing Services</h5>
                             </div>
-                        </div>
-
-                        <div class="col-md-4 wow fadeInRight px-2" data-wow-delay="0.5s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Web Development</h5>
-                                <p class="mb-4">We offer end-to-end design, development, and support services to 
-                                    help businesses of all sizes establish a strong online presence.
-                                </p>
-                                <a href="web-dev.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
                             </div>
                         </div>
 
                         <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.5s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Application Maintenance </h5>
-                                <p class="mb-4">Ensuring your software continues to perform at its peak is just as important as 
-                                    building it right in the first place.
-                                </p>
-                                <a href="support.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                            <div class="card">
+                                <div class="face face1">
+                                 <div class="services1-descb">
+                                    <p class="mb-4">Our Business Process Outsourcing (BPO) Services empower businesses 
+                                        to outsource non-core functions efficiently.
+                                    </p>
+                                    <a href="bpo.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                 </div>
+                                </div>
+                                    <div class="face face2">
+                                        <h5 class="fw-bold text-white">BPO Services</h5>
+                                    </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.3s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">IT Training & Development</h5>
-                                <p class="mb-4">Empower your team with the skills, knowledge, and expertise needed to 
-                                    thrive in today’s fast-evolving digital landscape.
-                                </p>
-                                <a href="it-training.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.3s">   
+                                <div class="card">
+                                    <div class="face face1">
+                                        <div class="services1-descb">
+                                            <p class="mb-4"> Our mobile app development services are designed to bring your vision to life 
+                                                with innovation, speed, and precision.
+                                            </p>
+                                            <a href="mobile-dev.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                            </div>
+                                    </div>
+                                    <div class="face face2">
+                                        <h5 class="fw-bold text-white">Mobile App Development</h5>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.3s">   
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="services1-descb">
+                                        <p class="mb-4"> We offer end-to-end design, development, and support services to 
+                                            help businesses of all sizes establish a strong online presence.
+                                        </p>
+                                        <a href="web-dev.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                        </div>
+                                </div>
+                                <div class="face face2">
+                                    <h5 class="fw-bold text-white">Web Development</h5>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.1s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Custom API Development</h5>
-                                <p class="mb-4">We specialize in building custom API solutions that enable seamless 
-                                    communication between systems.
-                                </p>
-                                <a href="api-dev.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                        <div class="col-md-4 wow fadeInRight px-2" data-wow-delay="0.3s">  
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="services1-descb">
+                                        <p class="mb-4">We provide expert IT consultancy services designed to help businesses 
+                                            leverage technology effectively, streamline operations, reduce costs.
+                                        </p>
+                                        <a href="it-consult.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <h5 class="fw-bold text-white">IT Consultancy</h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="col-md-4 wow fadeInRight px-2" data-wow-delay="0.3s">   
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="services1-descb">
+                                            <p class="mb-4">Empower your team with the skills, knowledge, and expertise needed to 
+                                                thrive in today’s fast-evolving digital landscape.
+                                            </p>
+                                            <a href="it-training.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                        </div>
+                                </div>
+                                <div class="face face2">
+                                    <h5 class="fw-bold text-white">IT Training & Development</h5>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 wow fadeInUp px-2" data-wow-delay="0.3s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">IT Consultancy</h5>
-                                <p class="mb-4">We provide expert IT consultancy services designed to help businesses 
-                                    leverage technology effectively, streamline operations, reduce costs.
-                                </p>
-                                <a href="it-consult.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                        <div class="col-md-4 wow fadeInRight px-2" data-wow-delay="0.3s">   
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="services1-descb">
+                                        <p class="mb-4">Our UI/UX Design Services are focused on creating intuitive, user-centered 
+                                            digital experiences that not only look stunning but business growth.
+                                        </p>
+                                        <a href="ux.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="face face2">
+                                    <h5 class="fw-bold text-white">UI/UX Design</h5>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 wow fadeInUp px-2" data-wow-delay="0.3s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">UI/UX Design</h5>
-                                <p class="mb-4">Our UI/UX Design Services are focused on creating intuitive, user-centered 
-                                    digital experiences that not only look stunning but business growth.
-                                </p>
-                                <a href="ux.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.3s">   
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="services1-descb">
+                                            <p class="mb-4"> Ensuring your software continues to perform at its peak is just as important as 
+                                                building it right in the first place.
+                                            </p>
+                                            <a href="support.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                        </div>
+                                </div>
+                                <div class="face face2">
+                                    <h5 class="fw-bold text-white">Application Maintenance</h5>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 wow fadeInUp px-2" data-wow-delay="0.3s">
-                            <div class="story-descb py-5">
-                                <h5 class="fw-bold">Software Quality Assurance</h5>
-                                <p class="mb-4">Our Software Quality Assurance (SQA) Services ensure your applications 
-                                    meet the highest standards of functionality and user experience before they reach your users.
-                                </p>
-                                <a href="qa.html" class="btn btn-light text-primary py-2 px-4">Read More</a>
+                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.3s">   
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="services1-descb">
+                                            <p class="mb-4">We specialize in building custom API solutions that enable seamless 
+                                                communication between systems.
+                                            </p>
+                                            <a href="api-dev.html" class="btn btn-primary text-primary py-2 px-4">Read More</a>
+                                        </div>
+                                </div>
+                                <div class="face face2">
+                                    <h5 class="fw-bold text-white">Custom API Development</h5>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="col-md-4 wow fadeInLeft px-2" data-wow-delay="0.3s">   
+                            <div class="card">
+                                <div class="face face1">
+                                    <div class="services1-descb">
+                                        <p class="mb-2">Our Software Quality Assurance (SQA) Services ensure your applications 
+                                            meet the highest standards of functionality and user experience before they reach your users.
+                                        </p>
+                                        <a href="qa.html" class="btn btn-primary text-primary px-4">Read More</a>
+                                        </div>
+                                </div>
+                                <div class="face face2">
+                                    <h5 class="fw-bold text-white">Software Quality Assurance</h5>
+                                </div>
+                            </div>
+                        </div>
+  
                     </div>
                 </div>
 
@@ -276,8 +410,8 @@
         <div class="container-fluid blog bg-white py-5 mt-3" id="industries">
             <div class="container py-5 mt-4">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="text-primary fw-bold text-uppercase"><font class="text-dark">Industry</font> Sepcific Expertise</h4>
-                    <h5 class="display-5 mb-4 fa-share"><i> Empowering Businesses with Cutting-Edge Technology Solutions</i></h5>
+                    <h4 class="text-primary fw-bold text-uppercase"><font style="color: #0264B9;">Industry</font> Sepcific Expertise</h4>
+                    <h5 class="display-5 mb-4"><i> Empowering Businesses with Cutting-Edge Technology Solutions</i></h5>
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -409,8 +543,8 @@
         <div class="container-fluid py-5 mt-3 bg-light" style="color: #1a3668;">
             <div class="container-career">
                 <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="text-primary fw-bold"><font class="text-dark">CAREER</font> @InfyniteTech</h4>
-                    <h5 class="display-5 fa-share"><i> We Offer Amazing Benefits</i></h5>
+                    <h4 class="text-primary fw-bold"><font style="color: #0264B9;">CAREER</font> @InfyniteTech</h4>
+                    <h5 class="display-5"><i> We Offer Amazing Benefits</i></h5>
                     <p class="mb-0"><i> We offer a comprehensive and competitive benefits package designed to support your health, well-being, financial security, and work-life balance.</i>
                     </p>
                 </div>
@@ -471,8 +605,8 @@
         <!-- Client trust start-->
         <div class="container-fluid overflow-hidden bg-white mt-3">
             <div class="container py-5">
-                <h4 class="text-primary fw-bold text-uppercase text-center"><font class="text-dark">Why</font> Our Client Trust Us</h4>
-                <h5 class="display-5 fa-share text-center"><i> Measuring Success Through Satisfaction</i></h5>
+                <h4 class="text-primary fw-bold text-uppercase text-center"><font style="color: #0264B9;">Why</font> Our Client Trust Us</h4>
+                <h5 class="display-5 text-center"><i> Measuring Success Through Satisfaction</i></h5>
                 <div class="row g-2 py-5">
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.3s">
                         <p class="mb-4 fw-bold text-dark" style="font-size: 1.1rem;"><i class="display-5 fas fa-arrow-circle-right text-primary"></i> 24/7/365 Support When You Need It </p>
@@ -515,11 +649,11 @@
         <!-- Client Trust End -->
 
         <!-- Testimonial Start -->
-        <div class="container-fluid testimonial bg-light mt-3" id="testimonial" style="color: #1a3668;">
+        <div class="container-fluid testimonial bg-testimonial mt-3" id="testimonial" style="color: #1a3668;">
             <div class="container py-5 mt-4">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-                    <h4 class="text-primary fw-bold text-uppercase">Testimonial</h4>
-                    <h5 class="display-5 mb-4 fa-share"><i> What Our Client Say About Us</i></h5>
+                    <h4 class="text-primary fw-bold text-uppercase">Testimonials</h4>
+                    <h5 class="display-5 mb-4"><i> What Our Client Say About Us</i></h5>
                     <p class="mb-0"><i> We believe that technology should empower , not complicate. That’s why delivering exceptional customer satisfaction is at the core of everything we do. We don’t just provide IT solutions — we build lasting partnerships based on trust, transparency, and results.</i>
                     </p>
                 </div>
