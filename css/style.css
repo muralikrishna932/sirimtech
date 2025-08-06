@@ -264,7 +264,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: url(../img/page-headr.jpg);
+    background: url(../img/banner-4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -977,8 +977,7 @@
     padding: 15px 10px 10px;
     width: 24%;
     text-align: center;
-    /*box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);*/
-    background: #93dfee;
+    background: linear-gradient(to right, rgb(0, 222, 255) 0.84%, rgb(227, 227, 227))/*#93dfee*/;
     font-size: 0.9rem;
 }
 
@@ -988,8 +987,7 @@
     padding: 15px 10px 10px;
     width: 24%;
     text-align: center;
-    /*box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);*/
-    background: #09d6ff;
+    background: linear-gradient(to right, rgb(0, 222, 255) 0.84%, rgb(227, 227, 227))/*#09d6ff*/;
     font-size: 0.9rem;
   }
 
@@ -1073,7 +1071,7 @@
 }
 
 .bg-whychoose {
-    background-color: #192020;
+    background-color: #004888;
     border-radius: 10px;
     width: 80%;
 }
