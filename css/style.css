@@ -977,11 +977,21 @@
     padding: 15px 10px 10px;
     width: 24%;
     text-align: center;
-    box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);
+    /*box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);*/
     background: #93dfee;
-    /*linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);*/
     font-size: 0.9rem;
 }
+
+.services-widget-hm {
+    padding-top: 30px 30px 35px;
+    border-radius: 10px;
+    padding: 15px 10px 10px;
+    width: 24%;
+    text-align: center;
+    /*box-shadow: 5px 10px 10px rgba(0, 66, 200, 0.62);*/
+    background: #09d6ff;
+    font-size: 0.9rem;
+  }
 
 @media (min-width: 1200px) {
     .display-5 {
@@ -1041,7 +1051,7 @@
 
 .info-one {
     background: #f8faff;
-    padding: 14px;
+    padding: 8px;
     border-radius: 10px;
     font-size: 16px;
     border: 1px solid rgb(255, 0, 0);
@@ -1064,8 +1074,8 @@
 
 .bg-whychoose {
     background-color: #192020;
-    border-radius: 25px;
-    width: 99%;
+    border-radius: 10px;
+    width: 80%;
 }
 
 
@@ -1211,91 +1221,15 @@
   text-shadow: none;
 }
 
-/* How we work */
-.container-how-we-work {
-  margin-top: 50px;
-  position: relative;
-}
- 
-.note {
-  color: #333;
-  position: relative;
-  width: 340px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: Satisfy;
-  font-size: 18px;
-  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
-}
-
-.yellow {
-  background: #eae672;
-  transform: rotate(0deg);
-}
-
-.pink{
-    background: rgb(255, 184, 184);
-    transform: rotate(0deg);
-}
-
-.blue {
-    background: #72cbeb;
-    transform: rotate(0deg);
-}
-
-.lime {
-    background: #cbffb5;
-    transform: rotate(0deg);
-}
-
   
-  /* Bottom right text */
-  .banner-text-block {
-    position: absolute;
-    bottom: 315px;
-    left: 45px;
+.banner-text-block {
+    position: relative;
+    bottom: -115px;
+    left: -25px;
     right: 45px;
-    background-color: rgba(0, 0, 0, 0.74);
-    color: white;
-    padding-left: 175px;
+    background-color: #00224D !important;
+    padding-left: 80px;
     padding-right: 49px;
-}
-
-.module {
-    margin: 10px;
-    width: 200px;
-    height: 150px;
-    float: left;
-    background: url(../img/bg-10.jpg);
-    background-size: cover;
-  }
-
-.darken {
-    background-image: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url(../img/bg-10.jpg);
-  }
-
-
-
-  .story-descb {
-    padding: 10px 10px 30px 10px;
-    margin: 30px 0;
-    background: #93dfee;
-    text-align: center;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-}
-
-.story-descb:hover {
-    box-shadow: 2px 2px 6px 1px rgba(158, 158, 158, 0.77);
-    border-bottom: 5px solid rgb(249, 12, 0);
-    border-top: 5px solid rgb(249, 12, 0);
-    margin-top: 25px;
-    cursor: pointer;
 }
 
 .row-service {
@@ -1307,7 +1241,7 @@
     margin-left: -15px;
 }
 
-/* our Approach */
+/* our Approach*/
 
 .d-inline-flex {
     display: inline-flex !important;
@@ -1417,3 +1351,75 @@
     left: 50%;
     top: 0;
 }
+
+
+.card{
+    width: 362px;
+    height: 248px;
+ 
+    padding: 10px 10px 30px;
+    margin: 30px 0px;
+    background: rgb(147, 223, 238);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card .face{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .card .face.face2{
+    background: rgba(0, 0, 0, 0.78) !important;
+    transition: 0.5s;
+  }
+  
+  .card:hover .face.face2{
+    height: 40px;
+  }
+  
+  .services1-descb {
+    padding: 10px 10px 30px 10px;
+    margin: 30px 0;
+    background: #93dfee;
+    text-align: center;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.dark-backgroud {
+    background: #00224D !important; 
+}
+
+.bg-testimonial {
+    background-color: #00abff36 !important;
+  }
+
+  .module {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    float: left;
+  }
+
+  
